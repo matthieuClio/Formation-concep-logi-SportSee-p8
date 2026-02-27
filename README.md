@@ -1,30 +1,72 @@
-# React + TypeScript + Vite
+# SportSee – Interactive sports statistics dashboard (JavaScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project context
+This project was developed as part of the **Application Designer & Developer (React-oriented)** training program by OpenClassrooms.  
+It is the eighth JavaScript front-end project in the curriculum and focuses on building an interactive dashboard that displays personalized sports performance data.
 
-Currently, two official plugins are available:
+The goal was to create a responsive dashboard that reads data from an API (real or mocked) and displays it using dynamic JavaScript logic and charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Educational objectives
+- Consume and handle API data using JavaScript (fetch / async)
+- Manipulate and transform data for visualization
+- Build interactive components (graphs, statistics panels)
+- Use DOM manipulation to display dynamic content
+- Structure a scalable JavaScript project
+- Apply responsive UI design
 
-## Expanding the ESLint configuration
+## Technologies used
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- DOM manipulation
+- API interaction (fetch / promises / async)
+- Chart libraries (if used)
+- Git / GitHub
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
+- Dashboard with user performance data
+- Dynamic charts and visual statistics
+- Profile and daily activity overview
+- Responsive layout
+- Interactive UI elements
 
-- Configure the top-level `parserOptions` property like this:
+## Installation and use
+No specific prerequisites are required.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. Clone the repository:
+```bash
+git clone https://github.com/matthieuClio/Formation-concep-logi-SportSee-p8.git
 ```
+Open index.html in a modern browser.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Architecture
+.  
+├── index.html  
+├── css/  
+│   └── style.css  
+├── js/  
+│   ├── api.js  
+│   ├── dashboard.js  
+│   ├── charts.js  
+│   └── app.js  
+├── data/  
+│   └── userData.json  
+├── images/  
+└── README.md  
+
+- HTML – base structure
+- CSS – responsive and visual design
+- JavaScript – API interaction and UI logic
+- JSON data – user performance datasets
+
+## Areas for improvement
+- Add unit testing for data transformation functions
+- Improve error handling for API failures
+- Add caching for API responses
+- Enhance animation and graph interactivity
+- Refactor JavaScript using ES Modules
+
+## Author
+
+Project by Matthieu Clio  
+Full stack JavaScript web developer
